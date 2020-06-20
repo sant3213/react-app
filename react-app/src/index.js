@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import Badge from './components/Badge';
+import 'bootstrap/dist/css/bootstrap.css';
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Badge firstName="Sant" lastName="Cárdenas" jobTittle="System engineering" twitter="Don´t have :)"></Badge>,
   document.getElementById('root')
 );
 
